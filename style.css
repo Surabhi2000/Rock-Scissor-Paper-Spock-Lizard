@@ -11,7 +11,6 @@ body{
         hsl(237, 49%, 15%)
     );
     min-height: 120vh;
-    min-width: none;
     color: #fff;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
@@ -242,7 +241,10 @@ main::before{
     margin-top: 100px;
 }
 
-@media (max-width: 375px){
+@media (max-width: 275px){
+    body{
+
+    }
     .selection .btn-circle{
         margin: 50px 20px;
         transform: scale(1);
