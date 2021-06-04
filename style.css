@@ -11,6 +11,7 @@ body{
         hsl(237, 49%, 15%)
     );
     min-height: 120vh;
+    min-width: none;
     color: #fff;
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
@@ -18,7 +19,7 @@ body{
 .container{
     width: 600px;
     max-width: 100%;
-    margin: 0 auto ;
+    margin: 0 auto;
 }
 
 button:focus{
@@ -59,6 +60,7 @@ h4{
 .score-container{
     background-color: #fff;
     border-radius: 10px;
+    max-width: 100%;
     padding: 20px 40px;
     text-align: center;
 }
@@ -240,7 +242,7 @@ main::before{
     margin-top: 100px;
 }
 
-@media (max-width: 400px){
+@media (max-width: 375px){
     .selection .btn-circle{
         margin: 50px 20px;
         transform: scale(1);
