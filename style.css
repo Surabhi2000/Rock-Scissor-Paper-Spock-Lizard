@@ -17,7 +17,7 @@ body{
 
 .container{
     width: 600px;
-    max-width: 100%;
+    max-width: 100vh;
     margin: 0 auto;
 }
 
@@ -245,6 +245,10 @@ main::before{
     .selection .btn-circle{
         margin: 50px 20px;
         transform: scale(1);
+    }
+
+    .container{
+        max-width: 80vh;
     }
 
     .down {
