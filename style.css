@@ -168,8 +168,8 @@ main::before{
 .btn-rule{
     border: 1px solid #fff;
     border-radius: 10px;
-    position: absolute;
-    bottom: 10px;
+    position: fixed;
+    bottom: 60px;
     right: 30px;
     background-color: transparent;
     color: #fff;
