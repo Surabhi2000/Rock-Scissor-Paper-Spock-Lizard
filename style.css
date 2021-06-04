@@ -241,10 +241,7 @@ main::before{
     margin-top: 100px;
 }
 
-@media (max-width: 275px){
-    body{
-
-    }
+@media (max-width: 600px){
     .selection .btn-circle{
         margin: 50px 20px;
         transform: scale(1);
